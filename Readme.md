@@ -3,10 +3,10 @@
 This branch contains the code and the report of Master Thesis: "Adaptive Trajectory Refinement for SLAM" done at Vision for Robotics Lab (V4RL) by Petar Subotic. It represents 
 adaptation of master repository "Spline-Based Direct IMU Integration for SLAM".
 
-New folder, Adaptive_Trajectory_Refinement_woBias is based on folder CT_SLAM_woBias which **does not** estimate IMU biases. Furthermore, in current implementation, 
+New folder, ATR_CODE is based on folder CT_SLAM_woBias which **does not** estimate IMU biases. Furthermore, in current implementation, 
 landmark positions in space (3D) are fixed and are **not updated**.
 
-In folder Adaptive_Trajectory_Refinement_woBias, three scripts can be found for running three different strategies:
+In folder ATR_CODE, three scripts can be found for running three different strategies:
 
 ```
 main_woBias_Insertion_strategy.m
@@ -51,5 +51,8 @@ and then using
 main_slam_simulator.m
 ```
 to create camera frames along the trajectory. Both files are located in the folder ./ATR_CODE/Simulator/. 
+
+
+es are located in the folder ./ATR_CODE/Simulator/. 
 
 
