@@ -43,7 +43,7 @@ should be left with their default values.
 In order to run aforementioned scripts, different parameters can be set at the beginning of the file. 
 All the *paths* to the different data-files need to be changed in order to run the scripts on another machine. 
 
-In order to run the scripts, the [EuRoc Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) needs to be download and visual data needs to be created by firstly creating landmarks using
+In order to run the scripts, the [EuRoc Dataset](https://projects.asl.ethz.ch/datasets/doku.php?id=kmavvisualinertialdatasets) needs to be downloaded and visual data needs to be created by firstly creating landmarks using
 
 ```
 creatWall.m
@@ -55,6 +55,8 @@ main_slam_simulator.m
 to create camera frames along the trajectory. Both files are located in the folder ./ATR_CODE/Simulator/. 
 
 
+Additionally, some less relevant scripts  e.g., for plotting and manually created detasets for different strategies can be located 
+on this [link](https://drive.google.com/file/d/1H8i8pVSwMgpUySW8B-9_3H9HuaMZr6V6/view?usp=sharing) 
 
 
 
