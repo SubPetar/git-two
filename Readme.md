@@ -7,6 +7,7 @@ New folder, ./ATR_CODE/Adaptive_trajectory_Refinement_woBias/ is based on folder
 landmark positions in space (3D) are fixed and are **not updated**.
 
 In ./ATR_CODE/Functions/ , functions for creating non-uniform cubic B-splines are located, which are used in ./ATR_CODE/Adaptive_trajectory_Refinement_woBias/preprocessing_woBias.m . 
+
 In folder ./ATR_CODE/Adaptive_trajectory_Refinement_woBias/, three scripts can be found for running three different strategies:
 
 ```
@@ -37,7 +38,7 @@ For **Insertion strategy** and **Interlined strategy**, in **__INSERTION PARAMET
 - Maximal residual
 
 by changing __choose_pose_per_segment_method__ to 'middle', 'center_of_residual_mass' and 'maximal_residual'. Other Insertion parameters 
-should be left with their mentioned default values.
+should be left with their default values.
 
 In order to run aforementioned scripts, different parameters can be set at the beginning of the file. 
 All the *paths* to the different data-files need to be changed in order to run the scripts on another machine. 
@@ -52,5 +53,8 @@ and then using
 main_slam_simulator.m
 ```
 to create camera frames along the trajectory. Both files are located in the folder ./ATR_CODE/Simulator/. 
+
+
+r/. 
 
 
